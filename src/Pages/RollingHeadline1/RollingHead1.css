@@ -1,0 +1,21 @@
+.rolling-head {
+  overflow: hidden;
+  position: relative; /* Add relative positioning to contain absolute positioned child */
+}
+
+.rolling-cont {
+  white-space: nowrap;
+  position: absolute;
+  left: 0; /* Start from the left edge of the parent container */
+  width: 100%; /* Occupy the full width of the parent container */
+  animation: roll 20s linear infinite; /* Adjust the duration as needed */
+}
+
+@keyframes roll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

@@ -1,0 +1,9 @@
+@keyframes flash {
+    0% { opacity: 10; }
+    50% { opacity: 0.5; }
+    100% { opacity: 10; }
+}
+
+.flashing {
+    animation: flash 1s infinite; /* Adjusted duration to 2s */
+}
