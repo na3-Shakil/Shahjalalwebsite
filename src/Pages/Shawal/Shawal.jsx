@@ -3,7 +3,7 @@ import Shawal1 from "../../assets/images/ShawalFast.jpeg";
 const Shawal = () => {
     return (
         <div>
-            <p className="text-center text-5xl m-5  text-blue-700">Welocome to Shawal 1445</p>
+            <p className="text-center text-4xl m-5  text-gray-700">Welcome to Shawwal 1445</p>
             <img src={Shawal1} alt="" />
         </div>
     );
