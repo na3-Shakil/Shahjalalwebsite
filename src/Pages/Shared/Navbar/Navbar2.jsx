@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../../assets/images/MasajidBgRemoved.png';
+import logo from '../../../assets/images/newlogo.jpeg';
 import Swal from 'sweetalert2';
 
 const Navbar2 = () => {
