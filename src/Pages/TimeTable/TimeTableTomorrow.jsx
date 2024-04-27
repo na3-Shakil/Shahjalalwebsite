@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import CurrentTimeOfBristolEngland from "./CurrentTimeOfBristolEngland";
 import CurrentHijriDateOfSaudiArabia from "./CurrentHijriDateOfSaudiArabia";
 
@@ -129,6 +130,9 @@ const TimeTableTomorrow = () => {
           </div>
           <p className="text-center text-xl m-6 text-red-600">*Zuhr Jamat time on Friday is for the Jummah prayer; Jummah Prayer is at 1.30 PM for summer Time and for Winter, Jummah is at 1:00 PM* </p>
         </div>
+        <div className="flex items-center justify-center">
+                  <Link to={"/PrayerTimeTable"} className='btn btn-xs sm:btn-sm md:btn-md lg:btn-md btn-success my-3  '>Full month Timetable</Link>
+                </div>
       </div>
     </div>
   );
