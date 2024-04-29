@@ -19,18 +19,18 @@ const Footer = () => {
                     <a href={facebookUrl} target="_blank" rel="noopener noreferrer">
                         <FaFacebook className="text-4xl mx-3 text-primary transition duration-300 hover:text-primary-dark" />
                     </a>
-                    <a href={twitterUrl} target="_blank" rel="noopener noreferrer">
+                  {/*   <a href={twitterUrl} target="_blank" rel="noopener noreferrer">
                         <FaTwitter className="text-4xl mx-3 text-primary transition duration-300 hover:text-primary-dark" />
-                    </a>
-                    <a href={youtubeUrl} target="_blank" rel="noopener noreferrer">
+                    </a> */}
+                    {/* <a href={youtubeUrl} target="_blank" rel="noopener noreferrer">
                         <FaYoutube className="text-4xl mx-3 text-primary transition duration-300 hover:text-primary-dark" />
-                    </a>
+                    </a> */}
                     <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
                         <FaWhatsapp className="text-4xl mx-3 text-primary transition duration-300 hover:text-primary-dark" />
                     </a>
-                    <a href={instraUrl} target="_blank" rel="noopener noreferrer">
+                    {/* <a href={instraUrl} target="_blank" rel="noopener noreferrer">
                         <FaInstagram className="text-4xl mx-3 text-primary transition duration-300 hover:text-primary-dark" />
-                    </a>
+                    </a> */}
                 </div>
             </footer>
             <footer className="footer footer-center p-4 bg-base-300 text-base-content">
