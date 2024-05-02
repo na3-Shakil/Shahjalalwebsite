@@ -58,17 +58,19 @@ const Navbar2 = () => {
                     </ul>
                 </div>
 
-                {/* Logo and Website Name */}
-                <div className="flex items-center ml-4">
-                    <img src={logo} alt="" className="w-8 h-8" />
-                    <Link to="/" className="normal-case lg:text-2xl sm:text-lg text-gray-900 ml-2 font-semibold truncate">
+             {/* Logo and Website Name */}
+            <div className="flex items-center ml-4">
+                <img src={logo} alt="" className="w-8 h-8 mr-9" /> {/* Adjusted margin from mr-2 to mr-8 */}
+                <div>
+                    <Link to="/" className="normal-case lg:text-2xl sm:text-lg text-gray-900 font-semibold truncate">
                         Shahjalal Jame Mosque Bristol
                     </Link>
                 </div>
             </div>
+            </div>
 
             {/* Desktop Navigation */}
-            <div className="navbar-center hidden font-semibold lg:flex">
+            <div className="navbar-center hidden font-semibold lg:flex ml-9">
                 <ul className="menu menu-horizontal px-4">{navOptions}</ul>
             </div>
             

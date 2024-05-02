@@ -133,7 +133,7 @@ const TimeTableTomorrow = () => {
         <div className="flex items-center justify-center">
         {/* <p className="text-center text-xl m-6 text-blue-600">Click to view the full month prayer timetable &rarr; </p> */}
           
-                  <Link to={"/PrayerTimeTable"} className='btn btn-xs sm:btn-sm md:btn-md lg:btn-md btn-success my-3  '>click me to View Full month Prayer Timetable</Link>
+                  <Link to={"/PrayerTimeTable"} className='btn btn-xs sm:btn-sm md:btn-md lg:btn-md btn-success my-3  '>click here to View Full month Prayer Timetable</Link>
                 </div>
       </div>
     </div>
