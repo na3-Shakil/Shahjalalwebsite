@@ -18,7 +18,7 @@ const Home = () => {
                 <p className="text-center text-4xl font-bold text-green-700">Welcome to Shahjalal Jame Mosque Bristol </p>
             </div>
             <RollingHeadline></RollingHeadline>
-            <RollingHeadline1></RollingHeadline1>
+            {/* <RollingHeadline1></RollingHeadline1> */}
             {/* <Fitrana></Fitrana> */}
             <Mosquedonation></Mosquedonation>
             <TimeTable></TimeTable>
