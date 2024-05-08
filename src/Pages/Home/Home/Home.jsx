@@ -23,7 +23,7 @@ const Home = () => {
             <Mosquedonation></Mosquedonation>
             <TimeTable></TimeTable>
             <TimeTableTomorrow></TimeTableTomorrow>
-            <Shawal></Shawal>
+            {/* <Shawal></Shawal> */}
             {/* <EidFitr></EidFitr> */}
             {/* <Ramadan></Ramadan> */}
             <Banner></Banner>
