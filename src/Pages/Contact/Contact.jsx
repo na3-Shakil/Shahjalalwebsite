@@ -52,7 +52,7 @@ const Contact = () => {
                         <p className="text-gray-600">United Kingdom</p>
                         <p className="text-gray-600">Email: <a href={`mailto:${email}`} className="text-blue-500 hover:underline">{email}</a></p>
                         <p className="text-gray-600">Imam: 07896 985835</p>
-                        <p className="text-gray-600">Phone: 0117 951998</p>
+                        <p className="text-gray-600">Phone: 0117 9519988</p>
                     </div>
                     <form ref={form} onSubmit={sendEmail} className="space-y-4">
                         <div>
