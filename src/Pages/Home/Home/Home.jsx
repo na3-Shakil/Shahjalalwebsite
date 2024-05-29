@@ -11,11 +11,12 @@ import Mosquedonation from "../../MosqueDonation/Mosquedonation";
 import Shawal from "../../Shawal/Shawal";
 import RollingHeadline from "../../RollingHeadline/RollingHeadline" 
 import RollingHeadline1 from "../../RollingHeadline1/RollingHeadline1";
+import './home.css';
 const Home = () => {
     return (
         <div className=" bg-green-100">
             <div className="flex flex-col items-center py-8 bg-green-300">
-                <p className="text-center text-4xl font-bold text-green-700">Welcome to Shahjalal Jame Mosque Bristol </p>
+                <p className="text-center text-4xl font-bold text-yellow-700 fadeInUp">Welcome to Shahjalal Jame Mosque Bristol </p>
             </div>
             <RollingHeadline></RollingHeadline>
             {/* <RollingHeadline1></RollingHeadline1> */}
